@@ -1,0 +1,37 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Source Code Pro', serif;
+}
+
+.jumbotron h2 {
+    margin: 0 0 1em 0;
+}
+    .jumbotron p {
+        font-size: 1em;
+    }
+
+p.footnote,
+.footnote {
+    font-style: italic;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
